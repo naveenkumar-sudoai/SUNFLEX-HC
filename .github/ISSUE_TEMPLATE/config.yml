@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discord
+    url: https://discord.gg/example
+    about: Ask questions, get help, and chat with the SUNFLEX-HC community
+  - name: 📖 Documentation
+    url: https://docs.example.com
+    about: Read the full project documentation
+  - name: 🛒 Hardware Kits
+    url: https://store.example.com
+    about: Buy assembled PCBs and component kits

@@ -1,0 +1,97 @@
+# SUNFLEX-HC .gitignore
+# ========================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.cproject
+.project
+.settings/
+
+# Build outputs
+build/
+dist/
+out/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# KiCad backups and autosaves
+*-backups/
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+fp-info-cache
+
+# KiCad fabrication outputs (regenerate from source)
+hardware/gerbers/*.gbr
+hardware/gerbers/*.drl
+hardware/gerbers/*.zip
+
+# LTspice
+*.raw
+*.log
+*.fft
+*.op.raw
+
+# MATLAB / Simulink
+*.slxc
+*.slx.autosave
+slprj/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secrets / Credentials
+*.pem
+*.key
+.env
+.env.local
+.env.*.local
+secrets.h
+credentials.json
+
+# Test outputs
+test/results/*.png
+test/results/*.csv
+test/results/*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
